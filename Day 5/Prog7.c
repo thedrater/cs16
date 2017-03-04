@@ -21,7 +21,7 @@
 
  	numberCopy = number;
 
- 	while(number)
+ 	while(number!=0)
  	{
  		sumOfCube += pow((number%10), 3);
  		number /= 10;
